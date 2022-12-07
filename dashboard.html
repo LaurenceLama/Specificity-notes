@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Still specificity</title>
+    <link rel="stylesheet" href="d-style.css" />
+  </head>
+  <body>
+    <h1>I heard something called BEM styling, LEZ DO IT</h1>
+    <section>
+      <p id="title" class="heading red">
+        Not sure what BEM means, but here are the hierarchy of prioritization
+        thingies
+      </p>
+      <div>
+        <img src="./notes/gl.png" alt="Notes that I gotted it">
+      </div>
+      <a href="#info">TP to info</a>
+    </section>
+    <section id="info">
+      <h1>Information</h1>
+      <p class="red">
+        We have normal prio (the p codes), next is class codes (.red), higher
+        than that is id codes (#info)
+      </p>
+      <div>
+        <img src="./notes/gl1.png" alt="Notes that I gotted it">
+      </div>
+      <a href="#footer">TP to footer</a>
+    </section>
+    <section id="footer">
+      <h1>THIS footer</h1>
+      <p class="blue">
+        Lastly we have code !important - we put this after the color or depend
+        on the property... class codes are commonly used for common properties,
+        then id codes are usually for teleporting to other sections
+      </p>
+      <div>
+        <img src="./notes/gl2.png" alt="Notes that I gotted it">
+      </div>
+      <a href="#title">Get back bro</a>
+    </section>
+    <h1>
+      <a href="./index.html">Lez get back</a>
+    </h1>
+  </body>
+</html>

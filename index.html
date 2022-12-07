@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Specificity is the prioritization of the styling</h1>
+    <section id="home">
+      <h1>Home</h1>
+      <p id="title" class="red">
+        Mainly my understanding in this is, we can give common properties to
+        specific sections of a website, mainly particular sentences
+      </p>
+      <a href="#info">- W/ coding of course, ANYWAY Go to info</a>
+    </section>
+    <section id="info">
+      <h1>Info</h1>
+      <p class="red">
+        <b>
+          We give priority by inserting class code to um, in this case a
+          paragraph. It is encoded with a name that can be accessed by linking
+          AGAIN to a ./style.css
+        </b>
+      </p>
+      <a href="#footer">Go to footer section</a>
+    </section>
+    <section id="footer">
+      <h1>Footer</h1>
+      <p class="blue">
+        The "class" code is mostly used, another one is "id" which is a higher
+        priority than class. But they both do the job identicaly. higher meaning
+        id overthrows the class code, OH yeah, id can only be used once. lemme
+        see what that "once" mean. brb
+      </p>
+      <a href="#home"
+        >This anchor is so cool it lets you teleport to hashtagged(#)
+        sections-</a
+      >
+    </section>
+    <h2>
+      More information, like how to teleport, I MEAN HOW TO PRIORITIZE SOME
+      CODES TO SOME yeah, words or phrases,<a href="./dashboard.html" target="_blank">GO</a>
+    </h2>
+  </body>
+</html>
